@@ -1,17 +1,17 @@
 #How to kill a process that captures apecific port on windows?
 1-Open windows cmd in admin mode.<br>
 2-Type <br>
-```sh
+```shell
   netstate -anbo | findstr <port-number>
  ```
 3-Use the pid from the previous, then
-  ```sh
+  ```shell
   taskkill /F /PID <PID><br>
   ```
   
   ##A sample:
   
-  ```sh
+  ```shell
   netstate -anbo | findstr 4444
   
   Out:

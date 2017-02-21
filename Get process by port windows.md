@@ -9,7 +9,7 @@
   taskkill /F /PID <PID><br>
   ```
   
-  ##A sample:
+  A sample:
   
   ```shell
   netstate -anbo | findstr 4444
